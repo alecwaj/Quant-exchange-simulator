@@ -1,0 +1,23 @@
+# Worst-case stress test parameters
+exchange:
+  block_time_ms: 500
+  mm_ratio: 0.03
+  max_leverage: 33
+  phase: 1
+  max_price_change_pct: 0.05
+  max_oracle_age_ms: 2000
+
+market:
+  book_depth_usd: 500000
+  spread_pct: 0.001
+
+users:
+  mau: 10000
+  position_count: 5000
+  avg_size_usd: 50000
+  side_bias: 0.6
+
+insurance:
+  initial_balance: 100000
+  treasury_backstop: 1000000
+  target_ratio: 0.01

@@ -1,0 +1,22 @@
+exchange:
+  block_time_ms: 200
+  mm_ratio: 0.0625
+  max_leverage: 16
+  phase: 1
+  max_price_change_pct: 0.05
+  max_oracle_age_ms: 2000
+
+market:
+  book_depth_usd: 3000000
+  spread_pct: 0.0002
+
+users:
+  mau: 1000
+  position_count: 500
+  avg_size_usd: 50000
+  side_bias: 0.6
+
+insurance:
+  initial_balance: 100000
+  treasury_backstop: 1000000
+  target_ratio: 0.01

@@ -1,0 +1,38 @@
+{
+  "_note": "Synthetic price data generated from historical crash metadata. Resolution varies by event.",
+  "march-2020": {
+    "event": "COVID crash",
+    "date": "2020-03-12",
+    "resolution_sec": 60,
+    "start_price": 7900,
+    "bottom_price": 4350
+  },
+  "may-2021": {
+    "event": "China ban crash",
+    "date": "2021-05-19",
+    "resolution_sec": 60,
+    "start_price": 43500,
+    "bottom_price": 28800
+  },
+  "luna-crash": {
+    "event": "LUNA/UST collapse",
+    "date": "2022-05-09",
+    "resolution_sec": 60,
+    "start_price": 36000,
+    "bottom_price": 26000
+  },
+  "ftx-crash": {
+    "event": "FTX collapse",
+    "date": "2022-11-08",
+    "resolution_sec": 60,
+    "start_price": 21400,
+    "bottom_price": 15900
+  },
+  "aug-2024": {
+    "event": "Yen carry unwind",
+    "date": "2024-08-05",
+    "resolution_sec": 60,
+    "start_price": 62000,
+    "bottom_price": 50800
+  }
+}

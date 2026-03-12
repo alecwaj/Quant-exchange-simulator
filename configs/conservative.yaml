@@ -1,0 +1,23 @@
+# M1 testnet — safe defaults
+exchange:
+  block_time_ms: 200
+  mm_ratio: 0.0625
+  max_leverage: 16
+  phase: 1
+  max_price_change_pct: 0.05
+  max_oracle_age_ms: 2000
+
+market:
+  book_depth_usd: 1000000
+  spread_pct: 0.0005
+
+users:
+  mau: 100
+  position_count: 50
+  avg_size_usd: 50000
+  side_bias: 0.6
+
+insurance:
+  initial_balance: 50000
+  treasury_backstop: 1000000
+  target_ratio: 0.01
